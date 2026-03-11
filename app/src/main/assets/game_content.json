@@ -1,0 +1,194 @@
+{
+  "storyMode": {
+    "title": "Story Mode",
+    "subtitle": "Follow Grandpa's final treasure trail",
+    "rewardStickerId": "candy",
+    "checkpoints": [
+      {
+        "id": "farm-gate",
+        "title": "Clue 1",
+        "clue": "Start where the old farm road opens to the sky. Grandpa always said every good adventure begins at the gate.",
+        "hint": "Look for the outdoor entrance where visitors would first step onto the property.",
+        "target": {
+          "latitude": 37.42334,
+          "longitude": -122.08426
+        }
+      },
+      {
+        "id": "apple-tree",
+        "title": "Clue 2",
+        "clue": "The next note waits near the tree that gave summer its sweetest shade.",
+        "hint": "Find a large outdoor tree with room to gather beneath it.",
+        "target": {
+          "latitude": 37.42389,
+          "longitude": -122.08472
+        }
+      },
+      {
+        "id": "windmill-path",
+        "title": "Clue 3",
+        "clue": "Follow the breeze to the path where Grandpa listened for the old windmill.",
+        "hint": "Look for an open walking path or corner where wind would be strongest.",
+        "target": {
+          "latitude": 37.42431,
+          "longitude": -122.08395
+        }
+      },
+      {
+        "id": "candy-cache",
+        "title": "Treasure",
+        "clue": "One final game. The treasure waits where the trail feels brightest.",
+        "hint": "Head to the final sunny outdoor spot and tap Found It when you arrive.",
+        "target": {
+          "latitude": 37.42474,
+          "longitude": -122.08441
+        },
+        "isFinalTarget": true
+      }
+    ]
+  },
+  "adventureMode": {
+    "title": "Adventure Mode",
+    "subtitle": "Generate a route from where you stand",
+    "difficulties": [
+      {
+        "difficulty": "easy",
+        "checkpointCount": 1,
+        "distanceFeet": {
+          "min": 90,
+          "max": 140
+        }
+      },
+      {
+        "difficulty": "medium",
+        "checkpointCount": 3,
+        "distanceFeet": {
+          "min": 110,
+          "max": 180
+        }
+      },
+      {
+        "difficulty": "hard",
+        "checkpointCount": 5,
+        "distanceFeet": {
+          "min": 140,
+          "max": 240
+        }
+      }
+    ]
+  },
+  "stickers": [
+    {
+      "id": "gift",
+      "name": "Gift Box",
+      "description": "A cheerful reward for finishing an easy route.",
+      "collectionLabel": "G",
+      "rarityWeight": 28,
+      "difficulties": ["easy", "medium", "hard"]
+    },
+    {
+      "id": "crown",
+      "name": "Crown",
+      "description": "A rarer prize for medium and hard adventures.",
+      "collectionLabel": "C",
+      "rarityWeight": 16,
+      "difficulties": ["medium", "hard"]
+    },
+    {
+      "id": "gem",
+      "name": "Gem",
+      "description": "A sparkling reward for harder treasure trails.",
+      "collectionLabel": "D",
+      "rarityWeight": 14,
+      "difficulties": ["medium", "hard"]
+    },
+    {
+      "id": "wand",
+      "name": "Wand",
+      "description": "A playful sticker for adventurous explorers.",
+      "collectionLabel": "W",
+      "rarityWeight": 18,
+      "difficulties": ["easy", "medium", "hard"]
+    },
+    {
+      "id": "map",
+      "name": "Treasure Map",
+      "description": "An explorer reward found during Adventure Mode routes.",
+      "collectionLabel": "M",
+      "rarityWeight": 16,
+      "difficulties": ["easy", "medium", "hard"]
+    },
+    {
+      "id": "compass",
+      "name": "Compass",
+      "description": "Unlocked when you trust your heading and keep walking.",
+      "collectionLabel": "P",
+      "rarityWeight": 18,
+      "difficulties": ["easy", "medium", "hard"]
+    },
+    {
+      "id": "trophy",
+      "name": "Trophy",
+      "description": "Reserved for strong performances on medium and hard runs.",
+      "collectionLabel": "T",
+      "rarityWeight": 12,
+      "difficulties": ["medium", "hard"]
+    },
+    {
+      "id": "star",
+      "name": "Lucky Star",
+      "description": "A rarer sticker that shows up more often on hard mode.",
+      "collectionLabel": "S",
+      "rarityWeight": 10,
+      "difficulties": ["hard"]
+    },
+    {
+      "id": "key",
+      "name": "Silver Key",
+      "description": "A hard-mode prize for committed treasure hunters.",
+      "collectionLabel": "K",
+      "rarityWeight": 8,
+      "difficulties": ["hard"]
+    },
+    {
+      "id": "candy",
+      "name": "Grandpa's Candy",
+      "description": "A sweet keepsake unlocked by completing Story Mode for the first time.",
+      "collectionLabel": "Y",
+      "rarityWeight": 1,
+      "storyReward": true
+    }
+  ],
+  "tuning": {
+    "preciseBaseRadiusMeters": 5.0,
+    "approximateBaseRadiusMeters": 18.0,
+    "preciseAccuracyMultiplier": 1.0,
+    "approximateAccuracyMultiplier": 1.3,
+    "nearDistanceMeters": 30.0,
+    "midDistanceMeters": 100.0,
+    "farUpdateIntervalMillis": 10000,
+    "midUpdateIntervalMillis": 4000,
+    "nearUpdateIntervalMillis": 1500,
+    "threeStarMinutes": 10,
+    "twoStarMinutes": 30
+  },
+  "uiText": {
+    "storyCardTitle": "Story Mode",
+    "storyCardSubtitle": "Follow a linear adventure",
+    "storyCardDetail": "3 clues to solve",
+    "adventureCardTitle": "Adventure Mode",
+    "adventureCardSubtitle": "Choose your difficulty",
+    "howToPlayTitle": "How to Play",
+    "howToPlaySteps": [
+      "Select story or adventure mode.",
+      "If selecting adventure mode, choose a difficulty.",
+      "Start the hunt.",
+      "Read the first clue.",
+      "When you reach the target location, click Found It to confirm.",
+      "Continue until the final target has been found."
+    ],
+    "permissionsTitle": "Location Needed For The Hunt",
+    "permissionsBody": "Precise location lets the app verify clues within a fair radius and keeps the compass guidance useful outdoors.",
+    "approximateBody": "You can still continue with approximate location, but target checks become more lenient and the experience is less precise."
+  }
+}

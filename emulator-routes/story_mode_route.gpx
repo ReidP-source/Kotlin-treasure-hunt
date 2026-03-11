@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="TreasureHunt Route" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Story Mode Route (4 Stops, 30s Dwell)</name>
+    <desc>Visits Clue 1, Clue 2, Clue 3, Treasure and pauses 30s at each location.</desc>
+  </metadata>
+
+  <trk>
+    <name>Story Mode Full Route</name>
+    <trkseg>
+      <!-- Approach Clue 1 -->
+      <trkpt lat="37.42320" lon="-122.08410"><time>2026-03-11T12:00:00Z</time></trkpt>
+      <trkpt lat="37.42328" lon="-122.08418"><time>2026-03-11T12:00:10Z</time></trkpt>
+      <trkpt lat="37.42334" lon="-122.08426"><time>2026-03-11T12:00:20Z</time></trkpt>
+      <!-- Clue 1 dwell: 30s -->
+      <trkpt lat="37.42334" lon="-122.08426"><time>2026-03-11T12:00:30Z</time></trkpt>
+      <trkpt lat="37.42334" lon="-122.08426"><time>2026-03-11T12:00:40Z</time></trkpt>
+      <trkpt lat="37.42334" lon="-122.08426"><time>2026-03-11T12:00:50Z</time></trkpt>
+
+      <!-- Move to Clue 2 -->
+      <trkpt lat="37.42345" lon="-122.08435"><time>2026-03-11T12:01:00Z</time></trkpt>
+      <trkpt lat="37.42358" lon="-122.08447"><time>2026-03-11T12:01:10Z</time></trkpt>
+      <trkpt lat="37.42372" lon="-122.08459"><time>2026-03-11T12:01:20Z</time></trkpt>
+      <trkpt lat="37.42382" lon="-122.08466"><time>2026-03-11T12:01:30Z</time></trkpt>
+      <trkpt lat="37.42389" lon="-122.08472"><time>2026-03-11T12:01:40Z</time></trkpt>
+      <!-- Clue 2 dwell: 30s -->
+      <trkpt lat="37.42389" lon="-122.08472"><time>2026-03-11T12:01:50Z</time></trkpt>
+      <trkpt lat="37.42389" lon="-122.08472"><time>2026-03-11T12:02:00Z</time></trkpt>
+      <trkpt lat="37.42389" lon="-122.08472"><time>2026-03-11T12:02:10Z</time></trkpt>
+
+      <!-- Move to Clue 3 -->
+      <trkpt lat="37.42400" lon="-122.08450"><time>2026-03-11T12:02:20Z</time></trkpt>
+      <trkpt lat="37.42412" lon="-122.08430"><time>2026-03-11T12:02:30Z</time></trkpt>
+      <trkpt lat="37.42422" lon="-122.08410"><time>2026-03-11T12:02:40Z</time></trkpt>
+      <trkpt lat="37.42428" lon="-122.08402"><time>2026-03-11T12:02:50Z</time></trkpt>
+      <trkpt lat="37.42431" lon="-122.08395"><time>2026-03-11T12:03:00Z</time></trkpt>
+      <!-- Clue 3 dwell: 30s -->
+      <trkpt lat="37.42431" lon="-122.08395"><time>2026-03-11T12:03:10Z</time></trkpt>
+      <trkpt lat="37.42431" lon="-122.08395"><time>2026-03-11T12:03:20Z</time></trkpt>
+      <trkpt lat="37.42431" lon="-122.08395"><time>2026-03-11T12:03:30Z</time></trkpt>
+
+      <!-- Move to Treasure -->
+      <trkpt lat="37.42444" lon="-122.08410"><time>2026-03-11T12:03:40Z</time></trkpt>
+      <trkpt lat="37.42456" lon="-122.08424"><time>2026-03-11T12:03:50Z</time></trkpt>
+      <trkpt lat="37.42466" lon="-122.08433"><time>2026-03-11T12:04:00Z</time></trkpt>
+      <trkpt lat="37.42472" lon="-122.08438"><time>2026-03-11T12:04:10Z</time></trkpt>
+      <trkpt lat="37.42474" lon="-122.08441"><time>2026-03-11T12:04:20Z</time></trkpt>
+      <!-- Treasure dwell: 30s -->
+      <trkpt lat="37.42474" lon="-122.08441"><time>2026-03-11T12:04:30Z</time></trkpt>
+      <trkpt lat="37.42474" lon="-122.08441"><time>2026-03-11T12:04:40Z</time></trkpt>
+      <trkpt lat="37.42474" lon="-122.08441"><time>2026-03-11T12:04:50Z</time></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

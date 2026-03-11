@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="TreasureHunt Route" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Story Mode Route (Repeat-Point Pause)</name>
+    <desc>Fallback GPX if emulator ignores timestamps; repeated points simulate dwell.</desc>
+  </metadata>
+
+  <rte>
+    <name>Story Mode Full Route</name>
+
+    <!-- Clue 1 -->
+    <rtept lat="37.42320" lon="-122.08410" />
+    <rtept lat="37.42328" lon="-122.08418" />
+    <rtept lat="37.42334" lon="-122.08426" />
+    <rtept lat="37.42334" lon="-122.08426" />
+    <rtept lat="37.42334" lon="-122.08426" />
+    <rtept lat="37.42334" lon="-122.08426" />
+    <rtept lat="37.42334" lon="-122.08426" />
+    <rtept lat="37.42334" lon="-122.08426" />
+    <rtept lat="37.42334" lon="-122.08426" />
+
+    <!-- Clue 2 -->
+    <rtept lat="37.42345" lon="-122.08435" />
+    <rtept lat="37.42358" lon="-122.08447" />
+    <rtept lat="37.42372" lon="-122.08459" />
+    <rtept lat="37.42382" lon="-122.08466" />
+    <rtept lat="37.42389" lon="-122.08472" />
+    <rtept lat="37.42389" lon="-122.08472" />
+    <rtept lat="37.42389" lon="-122.08472" />
+    <rtept lat="37.42389" lon="-122.08472" />
+    <rtept lat="37.42389" lon="-122.08472" />
+    <rtept lat="37.42389" lon="-122.08472" />
+    <rtept lat="37.42389" lon="-122.08472" />
+
+    <!-- Clue 3 -->
+    <rtept lat="37.42400" lon="-122.08450" />
+    <rtept lat="37.42412" lon="-122.08430" />
+    <rtept lat="37.42422" lon="-122.08410" />
+    <rtept lat="37.42428" lon="-122.08402" />
+    <rtept lat="37.42431" lon="-122.08395" />
+    <rtept lat="37.42431" lon="-122.08395" />
+    <rtept lat="37.42431" lon="-122.08395" />
+    <rtept lat="37.42431" lon="-122.08395" />
+    <rtept lat="37.42431" lon="-122.08395" />
+    <rtept lat="37.42431" lon="-122.08395" />
+    <rtept lat="37.42431" lon="-122.08395" />
+
+    <!-- Treasure -->
+    <rtept lat="37.42444" lon="-122.08410" />
+    <rtept lat="37.42456" lon="-122.08424" />
+    <rtept lat="37.42466" lon="-122.08433" />
+    <rtept lat="37.42472" lon="-122.08438" />
+    <rtept lat="37.42474" lon="-122.08441" />
+    <rtept lat="37.42474" lon="-122.08441" />
+    <rtept lat="37.42474" lon="-122.08441" />
+    <rtept lat="37.42474" lon="-122.08441" />
+    <rtept lat="37.42474" lon="-122.08441" />
+    <rtept lat="37.42474" lon="-122.08441" />
+    <rtept lat="37.42474" lon="-122.08441" />
+  </rte>
+</gpx>
