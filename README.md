@@ -7,6 +7,7 @@ App assets are still being updated to reflect the hand-drawn style.
 **To-Do List:**
 - TH Logo
 - New "hand drawn" font for dynamic text
+- Correct compass heading direction
 - Hand-drawn completion screen
 - Adventure hunt updates (difficulties and reward system tweaks)
 - Adventure hunt hand-drawn title
